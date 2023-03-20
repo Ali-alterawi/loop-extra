@@ -149,3 +149,11 @@
 // alert(sum);
 
 // Q-13
+let intNum = prompt("enter integer number");
+let sumAvg = 0;
+let i;
+for ( i = 0; i <= intNum; i++) {
+
+    sumAvg +=i;
+}
+alert('the avg = ' + (sumAvg / i) );
